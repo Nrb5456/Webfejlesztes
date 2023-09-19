@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="hu" data-bs-theme="dark">
     <head>
         <meta charset="UTF-8">
@@ -12,25 +13,63 @@
                 height: 100vh;
             }
             
-            p {
+            h1 {
                 color: white;
-                font-size: 25px;
             }
 
-            img {
+            .options {
+                display: flex;
                 justify-content: center;
             }
+
+            .computer {
+                display: flex;
+                justify-content: center;
+                height: 200px;
+            }
+
+            .restartButton {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 200px;
+                height: 50px;
+                font-size: 25px;
+                font-weight: 500;
+                border: 5px solid black;  
+                border-radius: 10px;
+            }
+
+            .restartButton :hover {
+                background-color: aqua;
+            }
+            
+            .centerButton {
+                display: flex;
+                justify-content: center;
+                font-size: 25px;
+                font-weight: 900;              
+            }
         </style>
-        
     </head>
 
     <body>
-        <p>Nyert - 0</p>
-        <p>Döntetlen - 0</p>
-        <p>Vesztett - 0</p>
+        <h1>Nyert - 0</h1>
+        <h1>Döntetlen - 0</h1>
+        <h1>Vesztett - 0</h1>
         
-        <img src="../res/rock.png">
-        <img src="../res/paper.png">
-        <img src="../res/scissors.png">
+        <div class="options"> 
+            <img src="../res/rock.png">
+            <img src="../res/paper.png">
+            <img src="../res/scissors.png">
+        </div>
+
+        <div class="computer"></div>
+
+        <div class="centerButton">
+            <button class="restartButton" id="restart_button">Újra</button>
+        </div>
+
+        <script src="index.js"></script>
     </body>
 </html>
