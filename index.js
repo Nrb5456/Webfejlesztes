@@ -32,19 +32,19 @@ function game(player) {
     if (player == 0) {
         switch (getRandomInt(3)) {
             case 0:
-                computer_choise.src="../res/rock.png";
+                computer_choise.src="res/rock.png";
                 result.textContent = "Döntetlen!";
                 draw++;
                 draw_header.textContent = "Döntetlen - " + draw;
                 break;
             case 1:
-                computer_choise.src="../res/paper.png";
+                computer_choise.src="res/paper.png";
                 result.textContent = "Vesztettél!";
                 loss++;
                 loss_header.textContent = "Vesztett - " + loss;
                 break;
             case 2:
-                computer_choise.src="../res/scissors.png";
+                computer_choise.src="res/scissors.png";
                 result.textContent = "Nyertél!";
                 win++;
                 win_header.textContent = "Nyert - " + win;
@@ -55,19 +55,19 @@ function game(player) {
     if (player == 1) {
         switch (getRandomInt(3)) {
             case 0:
-                computer_choise.src="../res/rock.png";
+                computer_choise.src="res/rock.png";
                 result.textContent = "Nyertél!";
                 win++;
                 win_header.textContent = "Nyert - " + win;
                 break;
             case 1:
-                computer_choise.src="../res/paper.png";
+                computer_choise.src="res/paper.png";
                 result.textContent = "Döntetlen!";
                 draw++;
                 draw_header.textContent = "Döntetlen - " + draw;
                 break;
             case 2:
-                computer_choise.src="../res/scissors.png";
+                computer_choise.src="res/scissors.png";
                 result.textContent = "Vesztettél!";
                 loss++;
                 loss_header.textContent = "Vesztett - " + loss;
@@ -78,19 +78,19 @@ function game(player) {
     if (player == 2) {
         switch (getRandomInt(3)) {
             case 0:
-                computer_choise.src="../res/rock.png";
+                computer_choise.src="res/rock.png";
                 result.textContent = "Vesztettél!";
                 loss++;
                 loss_header.textContent = "Vesztett - " + loss;
                 break;
             case 1:
-                computer_choise.src="../res/paper.png";
+                computer_choise.src="res/paper.png";
                 result.textContent = "Nyertél!";
                 win++;
                 win_header.textContent = "Nyert - " + win;
                 break;
             case 2:
-                computer_choise.src="../res/scissors.png";
+                computer_choise.src="res/scissors.png";
                 result.textContent = "Döntetlen!";
                 draw++;
                 draw_header.textContent = "Döntetlen - " + draw;
