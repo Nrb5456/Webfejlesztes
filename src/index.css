@@ -1,0 +1,72 @@
+body {
+    background-image: url("../res/background.jpg");
+    background-size: cover;
+    height: 100%; 
+}
+
+h2 {
+    color: white;
+}
+
+p {
+    color: white;
+    font-size: 50px;
+    margin: 0;
+}
+
+.result {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 100%;
+}
+
+.options {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 260px;
+}
+
+.computer {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
+.restartButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 500;
+    border: 5px solid black;  
+    border-radius: 10px;
+    background-color: white;
+}
+
+.restartButton:hover {
+    background-color: lightgray;
+}
+
+.centerButton {
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 900; 
+    margin-top: 15px;            
+}
+
+#paper, #rock, #scissors {
+    background-color: transparent;
+    border: 0px;
+    margin: 10px;
+    border: 3px solid transparent;
+}
+
+#paper:hover, #rock:hover, #scissors:hover {
+    border: 3px solid black;
+    border-radius: 30px;
+} 
